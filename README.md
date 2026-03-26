@@ -31,9 +31,9 @@ The project directory organization is as follows:
 ├── src
 │   └── exercises
 │       ├── home-work
-│       │   └── doc
+│       │   ├── doc
+│       │   └── uml
 │       └── exercise-1-hello-canvas
-│       │   └── doc
 └── scripts
     └── dev-server.js
 ```

@@ -53,26 +53,33 @@ proyecto.
 ### Estructura de directorios de los proyectos de PAI
 A pesar de que no existe un criterio universal a la hora de estructurar en directorios un proyecto de
 programación web en TypeScript como los que se desarrollan en PAI, sí conviene adoptar una estructura de directorios explícita y consensuada en el ámbito de la asignatura.
-El beneficio principal es que una estructura compartida mejora la mantenibilidad, la colaboración y la consistencia entre proyectos.
+El beneficio principal es que una estructura así mejora la mantenibilidad, la colaboración y la consistencia entre proyectos.
 
 Una estructura consensuada favorece la asignación clara de responsabilidades y mejora el flujo de información,
-y agrupar de forma coherente los módulos y usar nombres descriptivos mejora la descubribilidad, facilita refactorizaciones 
+y agrupar de forma coherente los módulos así como usar nombres descriptivos mejora la descubribilidad, facilita refactorizaciones 
 y ayuda a que el proyecto escale sin convertirse en un repositorio caótico.
 
 Es por las razones expuestas que en las prácticas de PAI vamos a adoptar para cada práctica la estructura de
-directorios que exponemos en este documento.
+directorios que se presenta en este documento.
 
 ## Descripción del contenido y finalidad de cada directorio
 Se explica a continuación el contenido de cada uno de los directorios de la estructura propuesta, que es la
 que se incorpora en esta práctica.
 
-La propuesta sigue un principio central: cada ejercicio es autónomo, pero todos comparten infraestructura común para no repetir código.
+La estructura sigue un principio central: cada ejercicio es autónomo, pero todos comparten infraestructura común para no repetir código.
+
+Es posible que en esta estructura eche Ud. en falta algún directorio. 
+Si se da ese caso, utilice su propia lógica para incorporarlo en el punto adecuado con un nombre descriptivo.
+Debiera resultar menos probable que necesite prescindir de alguno de los directorios propuestos.
+
+Por otra parte todos los ficheros que se proporcionan con esta práctica (`*.html`, `*.json`, `*.js`, etc.) se
+ofrecen a modo de ejemplo o referencia. 
+**Debe Ud.** revisarlos y adaptarlos a sus propias necesidades en cada práctica y ejercicio.
 
 **Raíz del proyecto**
 Los ficheros de configuración se alojan aquí: `package.json` gestiona dependencias y scripts, 
 `tsconfig.jsoni` configura el compilador.
 Ficheros `.gitignore`, `README.md` así como otros que pudieran resultar necesarios para futuras necesidades.
-
 
 **`/public`**
 `index.html`, 
