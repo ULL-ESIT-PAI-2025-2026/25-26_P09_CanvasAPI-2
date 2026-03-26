@@ -1,6 +1,6 @@
 # :school: PAI Lab assignment [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Simple interactive web application in vanilla Typescript
+Simple interactive Graphic web Application in vanilla Typescript
 
 ## Purpose
 
@@ -19,7 +19,7 @@ The project directory organization is as follows:
 
 ```text
 .
-├── dist (generado)
+├── dist (generated)
 ├── LICENSE
 ├── p09_Canvas-FunctionRendering.md
 ├── package.json
@@ -31,7 +31,9 @@ The project directory organization is as follows:
 ├── src
 │   └── exercises
 │       ├── home-work
+│       │   └── doc
 │       └── exercise-1-hello-canvas
+│       │   └── doc
 └── scripts
     └── dev-server.js
 ```

@@ -50,6 +50,59 @@ como mínimo la información que se muestra en el ejemplo.
 Haga que el fichero `README.md` sea la primera página de la documentación (TypeDoc) del
 proyecto.
 
+### Estructura de directorios de los proyectos de PAI
+A pesar de que no existe un criterio universal a la hora de estructurar en directorios un proyecto de
+programación web en TypeScript como los que se desarrollan en PAI, sí conviene adoptar una estructura de directorios explícita y consensuada en el ámbito de la asignatura.
+El beneficio principal es que una estructura compartida mejora la mantenibilidad, la colaboración y la consistencia entre proyectos.
+
+Una estructura consensuada favorece la asignación clara de responsabilidades y mejora el flujo de información,
+y agrupar de forma coherente los módulos y usar nombres descriptivos mejora la descubribilidad, facilita refactorizaciones 
+y ayuda a que el proyecto escale sin convertirse en un repositorio caótico.
+
+Es por las razones expuestas que en las prácticas de PAI vamos a adoptar para cada práctica la estructura de
+directorios que exponemos en este documento.
+
+## Descripción del contenido y finalidad de cada directorio
+Se explica a continuación el contenido de cada uno de los directorios de la estructura propuesta, que es la
+que se incorpora en esta práctica.
+
+La propuesta sigue un principio central: cada ejercicio es autónomo, pero todos comparten infraestructura común para no repetir código.
+
+**Raíz del proyecto**
+Los ficheros de configuración se alojan aquí: `package.json` gestiona dependencias y scripts, 
+`tsconfig.jsoni` configura el compilador.
+Ficheros `.gitignore`, `README.md` así como otros que pudieran resultar necesarios para futuras necesidades.
+
+
+**`/public`**
+`index.html`, 
+Punto de entrada ("índice") y navegación entre los ejercicios de la práctica
+Ficheros de estilos (CSS) comunes a todo el proyecto
+
+**`/dist`**
+Directorio que almacena los ficheros JS transpilados a partir de los fuentes TS
+Este directorio es ignorado en `.gitignore`
+
+**`/scripts`**
+`dev-server.js `, servidor de desarrollo simple, para desplegar su aplicación en su máquina virtual.
+
+**`/src/exercises`**
+Un subdirectorio por ejercicio, y cada uno de ellos tiene exactamente la misma estructura interna: página HTML dedicada, 
+fichero principal de la aplicación, módulos propios (clases) de ese ejercicio y un README.md con la descripción específica del ejercicio, si se considera necesario.
+
+También incluye un subdirectorio para el ejercicio desarrollado como práctica/entrenamiento para la sesión de evaluación.
+
+**`/src/exercises/exercise-1-hello-canvas`**
+Cada uno de los subdirectorios de `exercises` tiene una misma estructura, conteniendo al menos:
+`exercise-1-hello-canvas.html` - Fichero HTML del ejercicio.
+`exercise-1-hello-canvas.ts` - Fichero principal (punto de entrada) del ejercicio.
+`exercise-1-hello-canvas.css` - Estilos del ejercicio
+
+Replicar esta estructura en cada ejercicio
+
+**`/src/exercises/home-work/doc`**
+Directorio conteniendo la documentación del ejercicio de preparación de la práctica
+
 ### Indicaciones de caracter general
 El programa que desarrolle ha de ser orientados a objetos.
 Ponga en práctica los principios de abstracción y encapsulamiento característicos 
