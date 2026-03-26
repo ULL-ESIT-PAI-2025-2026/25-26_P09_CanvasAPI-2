@@ -1,7 +1,4 @@
-# PAI Lab assignment 
-:school:
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# :school: PAI Lab assignment [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Simple interactive web application in vanilla Typescript
 
