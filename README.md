@@ -22,7 +22,7 @@ The project directory organization is as follows:
 
 ```text
 .
-├── dist
+├── dist (generado)
 ├── LICENSE
 ├── p09_Canvas-FunctionRendering.md
 ├── package.json

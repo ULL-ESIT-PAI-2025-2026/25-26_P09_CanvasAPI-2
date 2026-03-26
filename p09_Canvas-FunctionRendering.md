@@ -40,14 +40,15 @@ y que es capaz de generar documentación para sus programas utilizando la herram
 * Acreditar que es capaz de editar ficheros de forma remota en su VM usando Visual Studio Code
 
 ### Ficheros `README.md` de los proyectos de PAI
-Cuando finalice su desarrollo modifique el fichero README.md de su proyecto incluyendo la información
+Cuando finalice su desarrollo modifique el fichero `README.md` de su proyecto incluyendo la información
 correspondiente a su proyecto de práctica.
 
-Puede tomar este fichero como referencia para ello, pero adapte el contenido del fichero al caso particular de cada una de sus prácticas.
-Siéntase libre de consignar en el fichero cualquier información que le parezca relevante, pero incluya siempre
-como mínimo la información que se muestra en este ejemplo.
+Puede tomar el fichero `README.md` de esta práctica como, pero adapte el contenido al caso particular de cada una de sus prácticas.
+Siéntase libre de consignar cualquier información que le parezca relevante, pero incluya siempre
+como mínimo la información que se muestra en el ejemplo.
 
-Haga que el fichero `README.md` de su proyecto sea la primera página de la documentación del mismo.
+Haga que el fichero `README.md` sea la primera página de la documentación (TypeDoc) del
+proyecto.
 
 ### Indicaciones de caracter general
 El programa que desarrolle ha de ser orientados a objetos.
