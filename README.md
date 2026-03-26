@@ -20,9 +20,28 @@ This application consists of Typescript, HTML and CSS files. This means that the
 
 The project directory organization is as follows:
 
+```text
+.
+├── dist
+├── LICENSE
+├── p09_Canvas-FunctionRendering.md
+├── package.json
+├── tsconfig.json
+├── README.md
+├── public
+│   ├── index.html
+│   └── styles.css
+├── src
+│   └── exercises
+│       ├── home-work
+│       └── exercise-1-hello-canvas
+└── scripts
+    └── dev-server.js
+```
+
 ## Author
 
-- [Alan Turing](alan.turing@ull.edu.es)
+- Alan Turing (alan.turing@ull.edu.es)
 
 ## Markdown
 
