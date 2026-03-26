@@ -1,19 +1,38 @@
 # PAI Lab assignment 
+:school:
 
-This is a repository to host the code of your lab assignments
-Create an appropriate directory structure to hold your project
-If your assignment includes different exercises, use different directories for each
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-**Remember also** to remove all binary files and empty directories in the final version of the project
+Simple interactive web application in vanilla Typescript
+
+## Purpose
+
+The objectives of this assignment are to put into practice:
+
+* Basic concepts of graphical programming in TypeScript using the Canvas API.
+* Design methodologies and concepts, and object-oriented programming in TypeScript.
+* Principles and best practices of object-oriented programming.
+* Some of the design patterns covered in the course.
+
+## Project Directory Structure
+
+This application consists of Typescript, HTML and CSS files. This means that there are no frameworks involved.
+
+The project directory organization is as follows:
+
+## Author
+
+- [Alan Turing](alan.turing@ull.edu.es)
+
+## Markdown
 
 This text is Markdown text. To learn about Markdown, Study these references:
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 * [StackEdit. An On-line MarkDown Editor](https://stackedit.io/)
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-The project directory organization is as follows:
+## License
 
-.
-└── src
-    └── evaluation-session
+This project is open source and available under the [MIT License](LICENSE).
 
+**Remember** to remove all binary files and empty directories in the final version of the project
