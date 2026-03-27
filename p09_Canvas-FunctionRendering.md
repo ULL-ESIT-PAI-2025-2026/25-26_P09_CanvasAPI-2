@@ -1,5 +1,6 @@
 # Práctica 9. Programación Gráfica en TypeScript. La API Canvas. Representación de funciones.
 ### Factor de ponderación: 9
+### Estimación de horas de trabajo para realizar la práctica: 4,5
 
 ### Objetivos
 Los objetivos de esta tarea son poner en práctica:
