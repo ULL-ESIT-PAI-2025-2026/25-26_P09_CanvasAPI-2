@@ -73,36 +73,37 @@ ofrecen a modo de ejemplo o referencia.
 
 * **Raíz del proyecto**
 Los ficheros de configuración se alojan aquí: `package.json` gestiona dependencias y scripts, 
-`tsconfig.jsoni` configura el compilador.
-Ficheros `.gitignore`, `README.md` así como otros que pudieran resultar necesarios para futuras necesidades.
+`tsconfig.json` configura la compilación.
+También los ficheros `.gitignore`, `README.md` así como otros que pudieran resultar necesarios para futuras necesidades se ubican en este directorio.
 
 * **`/public`**
 `index.html`, 
-Punto de entrada ("índice") y navegación entre los ejercicios de la práctica
-Ficheros de estilos (CSS) comunes a todo el proyecto
+Punto de entrada ("índice") y navegación entre los ejercicios de la práctica.
+Ficheros de estilos (CSS) comunes a todo el proyecto se pueden alojar también en este directorio.
 
-**`/dist`**
-Directorio que almacena los ficheros JS transpilados a partir de los fuentes TS
+* **`/dist`**
+Almacena los ficheros JS transpilados a partir de los fuentes TS.
 Este directorio es ignorado en `.gitignore`
 
-**`/scripts`**
+* **`/scripts`**
 `dev-server.js `, servidor de desarrollo simple, para desplegar su aplicación en su máquina virtual.
+Recuerde adaptar este fichero a sus necesidades específicas.
 
-**`/src/exercises`**
-Un subdirectorio por ejercicio, y cada uno de ellos tiene exactamente la misma estructura interna: página HTML dedicada, 
+* **`/src/exercises`**
+Un subdirectorio por ejercicio, y cada uno de ellos tendrá exactamente la misma estructura interna: página HTML dedicada, 
 fichero principal de la aplicación, módulos propios (clases) de ese ejercicio y un README.md con la descripción específica del ejercicio, si se considera necesario.
 
 También incluye un subdirectorio para el ejercicio desarrollado como práctica/entrenamiento para la sesión de evaluación.
 
-**`/src/exercises/exercise-1-hello-canvas`**
+* **`/src/exercises/exercise-1-hello-canvas`**
 Cada uno de los subdirectorios de `exercises` tiene una misma estructura, conteniendo al menos:
-`exercise-1-hello-canvas.html` - Fichero HTML del ejercicio.
-`exercise-1-hello-canvas.ts` - Fichero principal (punto de entrada) del ejercicio.
-`exercise-1-hello-canvas.css` - Estilos del ejercicio
+* `exercise-1-hello-canvas.html` - Fichero HTML del ejercicio.
+* `exercise-1-hello-canvas.ts` - Fichero principal (punto de entrada) del ejercicio.
+* `exercise-1-hello-canvas.css` - Estilos del ejercicio
 
 Replicar esta estructura en cada ejercicio
 
-**`/src/exercises/home-work/doc`**
+* **`/src/exercises/home-work/doc`**
 Directorio conteniendo la documentación del ejercicio de preparación de la práctica
 
 ### Indicaciones de caracter general
