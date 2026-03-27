@@ -97,9 +97,9 @@ También incluye un subdirectorio para el ejercicio desarrollado como práctica/
 
 * **`/src/exercises/exercise-1-hello-canvas`**
 Cada uno de los subdirectorios de `exercises` tiene una misma estructura, conteniendo al menos:
-* `exercise-1-hello-canvas.html` - Fichero HTML del ejercicio.
-* `exercise-1-hello-canvas.ts` - Fichero principal (punto de entrada) del ejercicio.
-* `exercise-1-hello-canvas.css` - Estilos del ejercicio
+    * `exercise-1-hello-canvas.html` - Fichero HTML del ejercicio.
+    * `exercise-1-hello-canvas.ts` - Fichero principal (punto de entrada) del ejercicio.
+    * `exercise-1-hello-canvas.css` - Estilos del ejercicio
 
 Replicar esta estructura en cada ejercicio
 
