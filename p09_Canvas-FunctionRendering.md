@@ -90,21 +90,20 @@ Este directorio es ignorado en `.gitignore`
 Recuerde adaptar este fichero a sus necesidades específicas.
 
 * **`/src/exercises`**
-Un subdirectorio por ejercicio, y cada uno de ellos tendrá exactamente la misma estructura interna: página HTML dedicada, 
-fichero principal de la aplicación, módulos propios (clases) de ese ejercicio y un README.md con la descripción específica del ejercicio, si se considera necesario.
-
-También incluye un subdirectorio para el ejercicio desarrollado como práctica/entrenamiento para la sesión de evaluación.
+Contendrá un subdirectorio por cada ejercicio, así como otro para el ejercicio desarrollado como práctica/entrenamiento para la sesión de evaluación.
 
 * **`/src/exercises/exercise-1-hello-canvas`**
-Cada uno de los subdirectorios de `exercises` tiene una misma estructura, conteniendo al menos:
+Cada uno de los subdirectorios de `exercises` tendrá exactamente la misma estructura interna: página HTML dedicada, 
+fichero principal de la aplicación, módulos propios (clases) de ese ejercicio y un README.md con la descripción específica del ejercicio, si se considera necesario:
     * `exercise-1-hello-canvas.html` - Fichero HTML del ejercicio.
     * `exercise-1-hello-canvas.ts` - Fichero principal (punto de entrada) del ejercicio.
-    * `exercise-1-hello-canvas.css` - Estilos del ejercicio
+    * `exercise-1-hello-canvas.css` - Estilos específicos del ejercicio, si resulta necesario.
+    * `README.md` - Información específica del ejercicio, si resulta necesario.
 
-Replicar esta estructura en cada ejercicio
+Esta estructura se replicará en cada ejercicio.
 
 * **`/src/exercises/home-work/doc`**
-Directorio conteniendo la documentación del ejercicio de preparación de la práctica
+Directorio conteniendo la documentación del ejercicio de preparación de la práctica.
 
 ### Indicaciones de caracter general
 El programa que desarrolle ha de ser orientados a objetos.
@@ -144,43 +143,35 @@ Para explorar esta segunda aproximación tal vez le resulte útil estudiar el an
 [mathjs](https://mathjs.org/) 
 
 Previo al desarrollo, realice un diseño de su aplicación identificando las diferentes clases que
-intervienen en el programa.
-Utilice *LucidChart* para dibujar un diagrama UML de las clases que intervienen.
+intervienen en el programa. 
+Utilice lápiz y papel para hacer un esquema de las relaciones entre las diferentes clases que intervienen en
+su aplicación.
+
+Cuando finalice su aplicación, utilice 
+[Mermaid.js](https://mermaid.js.org/), 
+[Lucidchart](https://www.lucidchart.com/pages) o cualquier otra herramienta que conozca para trasladar sus
+diseños en papel a un diagrama en formato digital que pueda mostrar a través de una web.
 
 ### Interfaz gráfica de la aplicación 
 La interfaz gráfica de la aplicación se desarrollará a través de diferentes páginas HTML.
 Haga que en el elemento `title` del código HTML de todas las páginas web de su poroyecto figure su nombre y apellidos.
 
 La visualización de la ejecución del programa se realizará a través de una página web alojada
-en la máquina IaaS-ULL de la asignatura (puede utilizar si lo desea la extensión *Live View* de VSC) y cuya URL tendrá la forma:
-
-[1] `http://10.6.129.123:8080/einstein-albert-function-rendering.html`
-
-en la que se embeberá un lienzo (canvas) para dibujar la gráfica de una función.
-Sustituya *Albert Einstein* por su nombre y apellido en la URL de su página
-y la dirección IP anterior por la correspondiente a su máquina IaaS.
-
-La web [1] mostrará un lienzo (canvas) que ocupe la mayor parte del viewport de su navegador.
+en la máquina IaaS-ULL de la asignatura (puede utilizar si lo desea la extensión *Live View* de VSC).
+En esa página se embeberá un lienzo (canvas) para dibujar la gráfica de una función.
+La mostrará un canvas que ocupe la mayor parte del viewport de su navegador.
 
 No es necesario que invierta esfuerzo en la programación de los aspectos de esa página que no tienen relación
 con TypeScript. 
-Tanto HTML como CSS son aspectos que se estudiarán con mayor nivel de detalle en el futuro. 
+Los estilos de CSS son aspectos que se estudiarán con mayor nivel de detalle en el futuro. 
 No se requiere que dedique esfuerzo a esos aspectos en esta práctica.
 Tampoco se propone en esta práctica que utilice elementos interactivos (botones, campos de texto, selectores,
 etc.) salvo quizás un campo de texto para leer la función que el usuario propone representar.
 
-Diseñe asimismo otra página HTML simple 
-
-[2] `http://10.6.129.123:8080/index.html`
-
-que sirva de "página índice" para los ejercicios de la sesión de evaluación de la práctica.
-La página [1] será uno de los enlaces de [2] y a su vez [1] tendrá un enlace "Home" que apunte a [2].
-Enlace también en la página índice [2] la página que contiene la documentación de su proyecto, generada con
-Typedoc.
-
-Incluya una tercera página
-[3] `http://10.6.129.123:8080/uml.html`
-que muestre el diagrama UML de las clases que intervienen en su programa.
+Configure asimismo en el directorio `/public` de su práctica, la página `index.html`, 
+que servirá de "página índice" para los ejercicios de la sesión de evaluación de la práctica.
+Enlace también en esa página índice tanto la página que contiene la documentación de su proyecto, generada con
+Typedoc como otra que mostrará el diagrama UML de las clases que intervienen en su programa.
 
 Las siguientes deben tomarse como especificaciones adicionales de la aplicación a desarrollar:
 
