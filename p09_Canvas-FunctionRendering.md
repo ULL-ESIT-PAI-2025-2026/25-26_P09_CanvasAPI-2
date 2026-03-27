@@ -110,14 +110,27 @@ El programa que desarrolle ha de ser orientados a objetos.
 Ponga en práctica los principios de abstracción y encapsulamiento característicos 
 de la OOP así como las buenas prácticas, principios y patrones que han sido expuestos en las clases de la asignatura.
 
-Configure para esta práctica una página web que sirva de índice para mostrar la documentación generada por
-TypeDoc para su aplicación.
-
 Configure adecuadamente ficheros `package.json` y `tsconfig.json` en el directorio raíz de su ejercicio 
 que permitan la instalación de las dependencias de su proyecto.
 
 En el desarrollo de esta práctica, utilice el depurador integrado en el navegador para confirmar que el flujo
 de ejecución de su programa es el correcto.
+
+No intente desarrollar su aplicación en un único paso.
+
+Previo al desarrollo, realice un diseño de su aplicación identificando las diferentes clases que
+intervienen en el programa. 
+Utilice lápiz y papel para hacer un esquema de las relaciones entre las diferentes clases que intervienen en
+su aplicación.
+
+Después de esa planificación inicial, trabaje mediante sucesivos refinamientos de una primera aproximación.
+También puede resultarle conveniente realizar pequeñas aplicaciones auxiliares que le sirvan para comprobar y
+aprender el funcionamiento de algún aspecto concreto de la aplicación.
+
+Cuando finalice su aplicación, utilice 
+[Mermaid.js](https://mermaid.js.org/), 
+[Lucidchart](https://www.lucidchart.com/pages) o cualquier otra herramienta que conozca para trasladar sus
+diseños en papel a un diagrama en formato digital que pueda mostrar a través de una web.
 
 ### Representación de funciones
 El objetivo de esta práctica es el desarrollo de una aplicación que permita la visualización en una página web
@@ -141,16 +154,6 @@ función pueda ser introducida por el usuario.
 Para explorar esta segunda aproximación tal vez le resulte útil estudiar el analizador de expresiones
 (*Expression parser*) de librería
 [mathjs](https://mathjs.org/) 
-
-Previo al desarrollo, realice un diseño de su aplicación identificando las diferentes clases que
-intervienen en el programa. 
-Utilice lápiz y papel para hacer un esquema de las relaciones entre las diferentes clases que intervienen en
-su aplicación.
-
-Cuando finalice su aplicación, utilice 
-[Mermaid.js](https://mermaid.js.org/), 
-[Lucidchart](https://www.lucidchart.com/pages) o cualquier otra herramienta que conozca para trasladar sus
-diseños en papel a un diagrama en formato digital que pueda mostrar a través de una web.
 
 ### Interfaz gráfica de la aplicación 
 La interfaz gráfica de la aplicación se desarrollará a través de diferentes páginas HTML.
