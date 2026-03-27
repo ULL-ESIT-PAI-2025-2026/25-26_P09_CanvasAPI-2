@@ -94,14 +94,13 @@ Recuerde adaptar este fichero a sus necesidades específicas.
 Contendrá un subdirectorio por cada ejercicio, así como otro para el ejercicio desarrollado como práctica/entrenamiento para la sesión de evaluación.
 
 * **`/src/exercises/exercise-1-hello-canvas`**
-Cada uno de los subdirectorios de `exercises` tendrá exactamente la misma estructura interna: página HTML dedicada, 
-fichero principal de la aplicación, módulos propios (clases) de ese ejercicio y un README.md con la descripción específica del ejercicio, si se considera necesario:
-    * `exercise-1-hello-canvas.html` - Fichero HTML del ejercicio.
-    * `exercise-1-hello-canvas.ts` - Fichero principal (punto de entrada) del ejercicio.
+Cada uno de los subdirectorios de `exercises` tendrá exactamente la misma estructura interna que se replicará en cada ejercicio.
+El contenido de cada subdirectorio será al menos el siguiente:página HTML dedicada, fichero principal de la aplicación, 
+módulos propios (clases) de ese ejercicio y un README.md con la descripción específica del ejercicio, si se considera necesario.
+    * `exercise-1-hello-canvas.html` - Página HTML específica del ejercicio.
+    * `exercise-1-hello-canvas.ts` - Fichero principal (punto de entrada) de la aplicación.
     * `exercise-1-hello-canvas.css` - Estilos específicos del ejercicio, si resulta necesario.
     * `README.md` - Información específica del ejercicio, si resulta necesario.
-
-Esta estructura se replicará en cada ejercicio.
 
 * **`/src/exercises/home-work/doc`**
 Directorio conteniendo la documentación del ejercicio de preparación de la práctica.
